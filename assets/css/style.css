@@ -7,3 +7,23 @@
 #status {
     background-color: yellow;
 }
+
+img {
+    height: 110px;
+    width: 110px;
+    
+}
+
+img:hover {
+    height: 120px;
+    width: 120px;
+    cursor:pointer;
+}
+
+img:active {
+    height: 115px;
+    width: 115px;
+    cursor:pointer;
+}
+
+
