@@ -19,7 +19,7 @@
     <!-- Jumbotron for Title -->
 <div class="jumbotron">
     <h1 class="text-center">Crystal Collectors!</h1>
-    <h3 class="text-center">Let's Play</h3>
+    <h3 id ="status" class="text-center"></h3>
 </div>
 
 <div class="container">
@@ -30,7 +30,7 @@
         <div class="col-lg-2">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h3 class="panel-title">Score</h3>
+                    <h3 class="panel-title">Target Score</h3>
                 </div>
 
                 <div class="panel-body">
@@ -50,16 +50,16 @@
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-sm-3">
-                            <img src="http://via.placeholder.com/110x110" alt="crystal-0">
+                            <img id = "crystal-0" src="http://via.placeholder.com/110x110" alt="crystal-0">
                         </div>
                         <div class="col-sm-3">
-                            <img src="http://via.placeholder.com/110x110" alt="crystal-1">        
+                            <img id = "crystal-1" src="http://via.placeholder.com/110x110" alt="crystal-1">        
                         </div>
                         <div class="col-sm-3">
-                            <img src="http://via.placeholder.com/110x110" alt="crystal-2">        
+                            <img id = "crystal-2" src="http://via.placeholder.com/110x110" alt="crystal-2">        
                         </div>
                         <div class="col-sm-3">
-                            <img src="http://via.placeholder.com/110x110" alt="crystal-3">        
+                            <img id = "crystal-3" src="http://via.placeholder.com/110x110" alt="crystal-3">        
                         </div>
                     </div>
 
@@ -76,7 +76,7 @@
                     </div>
                     <div class="panel-body">
                       <hr>
-                      <h1 id="yourScore"></h1>
+                      <h1 id="yourScore">0</h1>
                     </div>
                 </div>
         </div>
@@ -89,8 +89,8 @@
                     </div>
                     <div class="panel-body">
                         <hr>
-                        <h1 id="win"></h1>
-                        <h1 id="loss"></h1>
+                        <h3 id="win">Wins: 0</h3>
+                        <h3 id="loss">Losses: 0</h3>
                     </div>
                 </div>
         </div>

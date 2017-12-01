@@ -3,3 +3,7 @@
 .container {
     text-align: center;
 }
+
+#status {
+    background-color: yellow;
+}
